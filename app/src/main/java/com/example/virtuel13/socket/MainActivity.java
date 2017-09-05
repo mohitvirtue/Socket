@@ -1,9 +1,7 @@
 package com.example.virtuel13.socket;
 
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.app.Activity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -26,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         buttonConnect = (Button) findViewById(R.id.connectButton);
         buttonClear = (Button) findViewById(R.id.clearButton);
         response = (TextView) findViewById(R.id.responseTextView);
-
+// comment added
         buttonConnect.setOnClickListener(new OnClickListener() {
 
             @Override
